@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CreateStudent</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Create Student</h1>
+  <form method="post" action="/students/create">
+    <label>Roll Number
+      <input type="number" name="rollNumber" required>
+    </label>
+    <label>Name
+      <input type="text" name="name" maxlength="20" required>
+    </label>
+    <label>CGPA
+      <input type="text" name="cgpa" required>
+    </label>
+    <label>Gender
+      <input type="text" name="gender" maxlength="10">
+    </label>
+    <div class="row">
+      <input type="submit" value="Save">
+      <a class="button ghost" href="../index.html">Back</a>
+    </div>
+  </form>
+</div>
+</body>
+</html>

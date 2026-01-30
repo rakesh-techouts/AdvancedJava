@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body { 
+	font-family: Segoe UI, Arial, sans-serif;
+	margin: 40px; 
+	background:#f8fafc; 
+	color:#0f172a; }
+.container { 
+	max-width: 900px; 
+	margin: 0 auto; }
+h1 { 
+	margin-bottom: 14px; }
+nav .button { 
+	margin-right: 10px; }
+.button, input[type=submit] {
+	background: rgb(0, 128, 128); 
+  	color: #fff;
+   	padding: 10px 20px;
+    border:none; 
+    border-radius:6px;
+    text-decoration:#0f172a;
+    cursor:pointer;
+}
+.button.ghost { 
+	background:#64748b; }
+form { 
+	background:#fff; 
+	padding:16px;
+	border:1px solid #e5e7eb; 
+	border-radius:8px; 
+	margin: 16px 0; }
+label { 
+	display:block; 
+	margin-top:8px; 
+	font-weight:600; }
+input[type=text], input[type=number] { 
+	width:100%; 
+	padding:8px; 
+	margin-top:4px; 
+	border:1px solid #cbd5e1; 
+	border-radius:6px; }
+.row { 
+	margin-top:12px; 
+	display:flex; 
+	gap:10px; }
+table { 
+	width:100%; 
+	border-collapse:collapse; 
+	background:#fff; 
+	margin-top:12px; }
+th, td { 
+	padding:10px; 
+	border-bottom:1px solid #e5e7eb; 
+	text-align:left; }
+.alert { 
+	color:#b91c1c; 
+	margin: 8px 0; }
+.success { 
+	color:#166534; 
+	margin: 8px 0; }
